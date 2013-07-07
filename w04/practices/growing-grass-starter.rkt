@@ -2043,7 +2043,7 @@
 0 0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 -1 3 -1 0 0 0 0 0 0 0.0 0.0 0.0 0.0 0.0 0.0 255 165 0 0 0
-0 -1 -1           0 591 0 4 3 85
+0 -1 -1           0 589 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
@@ -2075,7 +2075,7 @@
 0 0 17 3 28 #";; growing-grass-starter.rkt"
 0 0 23 29 1 #"\n"
 0 0 23 29 1 #"\n"
-0 7        1333 4           0 0           0 221 0 23 29 1 #"\n"
+0 7        1333 68           0 0           0 221 0 23 29 1 #"\n"
 0 0 14 3 8 #"PROBLEM:"
 0 0 23 29 1 #"\n"
 0 0 23 29 1 #"\n"
@@ -2426,10 +2426,10 @@
  #";; Grass is (make-grass Natrual[0, BGWIDTH - GRWIDTH] Natural[0, BGH"
  #"EIGHT] Integer)"
 ) 0 0 23 29 1 #"\n"
-0 0 17 3 87
+0 0 17 3 85
 (
- #";; interp. (make-grass (x y dy)) is a grass which is planted at x wi"
- #"th its height y and"
+ #";; interp. (make-grass x y dy) is a grass which is planted at x with"
+ #" its height y and"
 ) 0 0 23 29 1 #"\n"
 0 0 17 3 19 #";; growing speed dy"
 0 0 23 29 1 #"\n"
@@ -2839,9 +2839,7 @@
 0 0 23 29 1 #"\n"
 0 0 23 29 1 #"\n"
 0 0 17 3 2 #";("
-0 0 17 3 6 #"define"
-0 0 17 3 2 #" ("
-0 0 17 3 25 #"handle-key g ke) g) ;stub"
+0 0 17 3 33 #"define (handle-key g ke) g) ;stub"
 0 0 23 29 1 #"\n"
 0 0 23 29 1 #"\n"
 0 0 17 3 25 #";take template from Grass"
